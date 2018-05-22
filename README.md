@@ -21,6 +21,7 @@ Gear S2 application to controll Tello.
 
 1. Import project to Tizen IDE.
     - File/Import -> General/Existing Projects into Workspace
+1. Set up certificates.
 1. Build and install the app on Gear S2.
 1. Turn on Tello.
 1. Connect Gear S2 to Tello from Wi-Fi setting.
