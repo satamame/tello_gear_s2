@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3.1" package="org.example.tellocontrol" version="1.0.0">
+    <author email="satax@nifty.com" href="satamame.com">satamame</author>
+    <profile name="wearable"/>
+    <ui-application appid="org.example.tellocontrol" exec="tellocontrol" multiple="false" nodisplay="false" taskmanage="true" type="capp">
+        <label>tellocontrol</label>
+        <icon>tellocontrol.png</icon>
+    </ui-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/network.get</privilege>
+        <privilege>http://tizen.org/privilege/push</privilege>
+        <privilege>http://tizen.org/privilege/network.set</privilege>
+        <privilege>http://tizen.org/privilege/internet</privilege>
+    </privileges>
+</manifest>
