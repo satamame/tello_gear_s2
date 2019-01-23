@@ -3,13 +3,13 @@ Gear S2 application to controll Tello.
 
 ## Environment
 
-- Tizen IDE 2.4.0_Rev8
-- Gear S2
-- Ryze Tello
+- [Tizen IDE 2.4.0_Rev8](https://download.tizen.org/sdk/Installer/tizen-sdk-2.4-rev8/)
+- [Gear S2](https://www.samsung.com/global/galaxy/gear-s2/)
+- [Ryze Tello](https://www.ryzerobotics.com/jp/tello)
 
 ## Feature
 
-- Connect/Disconnect Gear S2 to Tello
+- Connect/Disconnect Gear S2 to/from Tello
 - Take off/Land Tello via Gear S2
 - Rotate Tello via Gear S2 bezel
 
@@ -20,7 +20,8 @@ Gear S2 application to controll Tello.
 ## Instruction
 
 1. Import project to Tizen IDE.
-    - File/Import -> General/Existing Projects into Workspace
+    1. File -> Import
+    1. General -> Existing Projects into Workspace
 1. Set up certificates.
 1. Build and install the app on Gear S2.
 1. Turn on Tello.
@@ -37,8 +38,8 @@ Gear S2 application to controll Tello.
 
 ## Modifying code
 
-- You can modify network information to connect Tello that is hard-coded in btn_connect_clicked_cb function.
-- You can modify the rotation angle for each rotary event in _rotary_handler_cb function.
+- You can modify network information to connect Tello that is hard-coded in btn_connect_clicked_cb() function.
+- You can modify the rotation angle for each rotary event in \_rotary_handler_cb() function.
 
 ## Limitation
 
